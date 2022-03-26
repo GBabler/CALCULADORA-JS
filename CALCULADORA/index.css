@@ -8,13 +8,13 @@
     margin-top: 10vh;
 }
 #conteudo{
-    background-color: rgb(196, 149, 149);
+    background-color: rgb(77, 74, 74);
     margin: auto;
     height: 550;
     width: 400px;
 }
 #display{
-    background-color: rgb(69, 87, 87);
+    background-color: rgb(0, 0, 0);
     width: 400px;
     height: 150px;
 }
@@ -25,7 +25,7 @@
 /*BOTÕES*/
 
 .botoes{
-    background-color: rgb(226, 224, 224);
+    background-color: rgb(255, 255, 255);
     width: 380px;
     height: 380px;
     margin: auto;
@@ -81,6 +81,27 @@ a{
     font-size: 25px !important;
 }
 
+/*TELA DE RESULTADOS*/
+
+#display{
+    display: flex;
+    flex-direction: row-reverse;
+}
+#resultado{
+    width: 100%;
+    display: flex;
+    justify-content: end;
+    padding: 0 10px;
+    align-items: center;
+}
+span{
+    font-size: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    
+}
 
 
 
