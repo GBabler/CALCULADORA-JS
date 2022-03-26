@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <main id="container">
+        <div id="conteudo">
+            <div id='display'>
+                <div id="resultado">
+                    <span id="valor"></span>
+                </div>
+            </div>
+            <div id='teclado'>
+                <div class="botoes">
+                    <ul>
+                        <li id="expoente" class="esprecoes" onClick="insert('^')"> <a href="#">^</a></li>
+                        <li id="limpar" class="esprecoes" onClick="clean()"> <a href="#">C</a></li>
+                        <li id="apagar" class="esprecoes" onClick="back()"> <a href="#"><</a></li>
+                        <li id="oque" class="esprecoes" onClick="insert('*')"> <a href="#">x</a></li>
+                        <li id="sete" class="numeros" onClick="insert('7')" value="7"> <a href="#">7</a></li>
+                        <li id="oito" class="numeros" onClick="insert('8')"> <a href="#">8</a></li>
+                        <li id="nove" class="numeros" onClick="insert('9')"> <a href="#">9</a></li>
+                        <li id="dividir" class="esprecoes" onClick="insert('/')"> <a href="#">÷</a></li>
+                        <li id="quatro" class="numeros" onClick="insert('4')"> <a href="#">4</a></li>
+                        <li id="cinco" class="numeros" onClick="insert('5')"> <a href="#">5</a></li>
+                        <li id="seis" class="numeros" onClick="insert('6')"> <a href="#">6</a></li>
+                        <li id="menos" class="esprecoes" onClick="insert('-')"> <a href="#">-</a></li>
+                        <li id="um" class="numeros" onClick="insert('1')"> <a href="#">1</a></li>
+                        <li id="dois" class="numeros" onClick="insert('2')"> <a href="#">2</a></li>
+                        <li id="tres" class="numeros" onClick="insert('3')"> <a href="#">3</a></li>
+                        <li id="mais" class="esprecoes" onClick="insert('+')"><a href="#">+</a></li>
+                        <li id="aspas" class="esprecoes" onClick="insert()"> <a href="#">'</a></li>
+                        <li id="zero" class="numeros" onClick="insert('0')"> <a href="#">0</a></li>
+                        <li id="virgula" class="esprecoes" onClick="insert('.')"> <a href="#">.</a></li>
+                        <li id="igual" class="esprecoes" onClick="calcular()"> <a href="#">=</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </main>
+</body>
+<script src="script.js"></script>
+</html>
